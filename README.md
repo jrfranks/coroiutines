@@ -14,10 +14,10 @@ The example provided is a simple coroutine that calculates and yields doubled va
  The C preprocessor provides a mechanism for defining macros, which are textual substitutions that occur during preprocessing, before the actual compilation of the code. In this case, macros are used to implement the coroutine functionality.
 
 ## Macros used
- - MapperCoInit:   Called by the initial caller to set up the mapper starting point.
- - MapperCoBegin:  Marks the beginning of the coroutine.
- - MapperCoReturn: Suspends the coroutine execution and saves the current position.
- - MapperCoEnd:    Marks the end of the coroutine.
+ - COROUTINE_INIT:   Called by the initial caller to set up the mapper starting point.
+ - COROUTINE_BEGIN:  Marks the beginning of the coroutine.
+ - COROUTINE_YIELD:  Suspends the coroutine execution and saves the current position.
+ - COROUTINE_END:    Marks the end of the coroutine.
 
 ## Usage
 Clone the repository to your local machine.
