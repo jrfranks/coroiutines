@@ -2,9 +2,10 @@
 /**
  * @file coroutine_example.c
  * @author John Franks
- * @date 2023
+ * @date Jan 1, 2023
  * @copyright Copyright (c) 2023 John Franks. All rights reserved.
  * @license MIT License
+ *
  * @brief Coroutine Example using Duff's Device and Macros
  *
  * C coroutines are an analogy to generators. Both C coroutines generators are

@@ -1,7 +1,11 @@
-# Description: Makefile for coroutine_example.c
-# License: MIT
-# Date: 2015-01-01
-# Author: John Franks
+#+
+# @file coroutine_example.c
+# @author John Franks
+# @date Jan 1, 2023
+# @copyright Copyright (c) 2023 John Franks. All rights reserved.
+# @license MIT License
+#
+# @brief Makefile for Coroutine Example using Duff's Device and Macros
 #
 # Notes: This is a simple Makefile for the coroutine_example.c
 #        program.  It is not intended to be a general purpose
@@ -9,9 +13,10 @@
 #        how to use Makefiles.
 #
 # Usage: make
-#        make clean
 #        make all
 #        make coroutine_example
+#        make clean
+#-
 
 .PHONY: all clean
 
